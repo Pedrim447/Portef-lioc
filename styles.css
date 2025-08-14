@@ -125,7 +125,7 @@ body {
 .hero-icon {
     width: 120px;
     height: 120px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
     background: linear-gradient(135deg, #ff4444, #ff6b6b);
     border-radius: 50%;
     display: flex;
@@ -294,10 +294,14 @@ section {
 }
 
 .fotin {
-    width: 40vh;
-    height: 40vh;
-    border-radius: 20px;
+    width: 450px;
+    height: 300px;
     
+    border-radius: 20px; 
+    box-shadow: 0 0 30px rgba(255, 68, 68, 0.603);
+    transition: all 0.3s ease;
+    
+
 }
 
 
